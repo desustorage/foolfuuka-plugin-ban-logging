@@ -1,0 +1,30 @@
+{
+  "name": "foolz/foolfuuka-plugin-ban-logging",
+  "type": "foolz-foolfuuka-plugin",
+  "description": "Log bans from http://www.4chan.org/bans",
+  "version": "1.0.1",
+  "keywords": ["fake", "mock"],
+  "homepage": "http://www.foolz.us",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "atc",
+      "email": "admin@desuarchive.org"
+    }
+  ],
+  "support": {
+    "email": "admin@desuarchive.org",
+    "irc": "irc://irc.irchighway.net/fooldriver"
+  },
+
+  "require" : {
+    "foolz/plugin": "dev"
+  },
+
+  "extra": {
+    "name": "Ban Logging",
+    "slug": "ban-logging",
+    "identifier": "fu",
+    "module": "foolfuuka"
+  }
+}

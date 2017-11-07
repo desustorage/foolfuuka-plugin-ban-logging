@@ -1,0 +1,54 @@
+.theme_default .bansListing tr:nth-child(2n) {
+    background: none repeat scroll 0 0 #ddf1e0;
+}
+.theme_default .bansListing tr:nth-child(2n+1) {
+    background: none repeat scroll 0 0 #f1f6f2;
+}
+.theme_default table.bansListing {
+    border-collapse: separate;
+    border-spacing: 1px;
+}
+.theme_default table.bansListing td, table.bansListing th {
+    border: 1px solid black;
+    border-left: 1px solid #606060;
+    padding: 5px 0px 0px 0px 0px;
+    vertical-align: top;
+    text-align: center;
+}
+.theme_default table.bansListing tr:hover {
+    background-color: #F5F5F5;
+}
+.theme_default.midnight .bansListing tr:nth-child(2n) {
+    background: none repeat scroll 0 0 #1d1f21;
+}
+.theme_default.midnight .bansListing tr:nth-child(2n+1) {
+    background: none repeat scroll 0 0 #32363a;
+}
+.theme_default.midnight table.bansListing tr:hover {
+    background-color: #000000;
+}
+.theme_default.yotsuba table.bansListing tr:nth-child(2n) {
+    background: none repeat scroll 0 0 transparent;
+}
+.theme_default.yotsuba table.bansListing tr:nth-child(2n+1) {
+    background: none repeat scroll 0 0 #ede2d4;
+}
+.theme_default.yotsuba_b table.bansListing tr:nth-child(2n) {
+    background: none repeat scroll 0 0 transparent;
+}
+.theme_default.yotsuba_b  table.bansListing tr:nth-child(2n+1) {
+    background: none repeat scroll 0 0 #e0e5f6;
+}
+.col-action {
+    width: 60px;
+}
+.col-post {
+    width: 100px;
+}
+.col-time {
+    width: 210px;
+}
+.backlink {
+    color: #0000EE;
+    text-decoration: underline;
+}
